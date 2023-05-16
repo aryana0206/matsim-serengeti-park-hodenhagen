@@ -85,6 +85,7 @@ public class CreatePopulation {
 	public CreatePopulation(int numberOfSafariVisitors, int safariParkplatzVisitors, int wasserlandParkplatzVisitors) throws IOException {
 		
 		// capacity 675
+		// capacity 675
 		linkId2numberOfVisitorsSerengetiParkplatz.put(Id.createLinkId("2344590910000r"), (int) (safariParkplatzVisitors * 0.8)); // Motorway
 		linkId2numberOfVisitorsSerengetiParkplatz.put(Id.createLinkId("44371520007f"), (int) (safariParkplatzVisitors * 0.1)); // North
 		linkId2numberOfVisitorsSerengetiParkplatz.put(Id.createLinkId("377320760000r"), (int) (safariParkplatzVisitors * 0.1)); // Hodenhagen
